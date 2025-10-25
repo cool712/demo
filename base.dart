@@ -12,7 +12,7 @@
  * 6. 消息提示 - 统一的提示框管理
  */
  @import
-abstract class @BaseController extends GetxController {
+abstract class BaseController extends GetxController {
   // =============== 基础服务 ===============
   /// 安全存储服务实例
   final storage = SecureStorageService.instance;
