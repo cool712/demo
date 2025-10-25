@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Vercel
+.vercel
+
+# Exclude build directories for all platforms
+**/build/
+**/dist/
+**/target/
+**/web/build/
+**/web/release/
+**/web/debug/
